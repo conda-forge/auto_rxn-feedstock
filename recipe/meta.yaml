@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - auto_rxn=auto_rxn.__main__:main
 
@@ -30,6 +30,8 @@ requirements:
     - bluesky
     - suitcase-csv
     - packaging
+    - tomli
+    - tomli-w
 
 test:
   imports:
