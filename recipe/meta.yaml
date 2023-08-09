@@ -30,6 +30,8 @@ requirements:
     - bluesky
     - suitcase-csv
     - packaging
+    - tomli
+    - tomli-w
 
 test:
   imports:
