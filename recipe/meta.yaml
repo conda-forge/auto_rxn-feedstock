@@ -38,6 +38,7 @@ test:
   commands:
     #- pip check  # bluesky recipe has bad depndencies, breaks pip check, should check once upstream fixed
     - auto_rxn --help
+    - auto-rxn --help
   requires:
     - pip
 
