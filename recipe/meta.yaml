@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - auto_rxn=auto_rxn.__main__:main
     - auto-rxn=auto_rxn.__main__:main
@@ -33,6 +33,7 @@ requirements:
     - packaging
     - tomli
     - tomli-w
+    - requests
 
 test:
   imports:
